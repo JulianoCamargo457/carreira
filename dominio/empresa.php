@@ -2,7 +2,7 @@
     class Empresa{
         private $nome;
         private $geolocalizacao;
-        private $cidadelbge;
+        private $cidadeIbge;
         private $telefone;
         private $id;
     
@@ -41,18 +41,19 @@
 	/**
 	 * @return mixed
 	 */
-	public function getCidadelbge() {
-		return $this->cidadelbge;
+	public function getCidadeIbge() {
+		return $this->cidadeIbge;
 	}
 	
 	/**
-	 * @param mixed $cidadelbge 
+	 * @param mixed $cidadeIbge 
 	 * @return self
 	 */
-	public function setCidadelbge($cidadelbge): self {
-		$this->cidadelbge = $cidadelbge;
+	public function setCidadeIbge($cidadeIbge): self {
+		$this->cidadeIbge = $cidadeIbge;
 		return $this;
 	}
+	
 	
 	/**
 	 * @return mixed
